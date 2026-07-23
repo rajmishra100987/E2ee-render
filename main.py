@@ -39,7 +39,7 @@ set_memory_limit()
 
 # ==================== CONFIGURATION ====================
 MAX_TASKS = 1  # SIRF 1 TASK - 512MB ke liye safe
-PORT = int(os.environ.get("PORT", 5000))
+PORT = int(os.environ.get("PORT", 8080))
 BROWSER_RESTART_HOURS = 2  # Har 2 hours restart (memory leak se bachne ke liye)
 
 DB_PATH = Path(__file__).parent / 'bot_data.db'
